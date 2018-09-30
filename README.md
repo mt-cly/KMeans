@@ -1,7 +1,7 @@
-# KMeans
+## KMeans
 it's just the course work of Parttern Recognition, made with python.
-===
->>First, you should pack your data of points up to a numpy.array, and save it as a .npy.——just like the file 'sample_pnts.npy'.
+-------
+  First, you should pack your data of points up to a numpy.array, and save it as a .npy.——just like the file 'sample_pnts.npy'.
    
   Then, run the K-means.py. The params of K-means.py should include the path of .npy file at least. And the second param 'CLASS_NUM' is not required.
    
@@ -11,5 +11,5 @@ it's just the course work of Parttern Recognition, made with python.
   
 Command sample:
 >>K-means.py  sample_pnts.npy -c 3
->>K-means.py sample_pnts.npy
+K-means.py sample_pnts.npy
 
