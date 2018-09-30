@@ -1,4 +1,4 @@
-﻿# coding=utf-8
+# coding=utf-8
 import random
 import argparse
 import math
@@ -102,7 +102,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.f:
         PNTS_PATH = args.f
-        pnts = np.load('sample_pnts.npy').tolist()
+        pnts = np.load(PNTS_PATH).tolist()
     if args.c:
         CLASS_NUM = args.c
         belongs, loss, center_pnts = k_means(class_num=CLASS_NUM, pnts=pnts)
@@ -113,7 +113,7 @@ if __name__ == '__main__':
         print('the classes(1,2,3...)\'s center points:')
         print(center_pnts)
     else:
-        # calculate each loss of given CLASS_NUM(0 - len(pnts)) for you can find the best value of CLASS_NUM
+        # calculate each loss of given CLASS_NUM(0 - len(pnts)) for you can finding the best value of CLASS_NUM
         # # 由于K-MEANS的随机初始化的影响，所以多次测量取最小值
         check_time = 15
         x = [i for i in range(1, len(pnts))]
