@@ -7,6 +7,6 @@
 　　if CLASS_NUM don't be setted, the project would calculate the results in different situation of CLASS_NUM=1, CLASS_NUM=2, CLASS_NUM=3,....Finally, draw those result in the matplot. So you can get a image shows the varity of loss and CLASS_NUM.  
   
 Command sample:  
-　　K-means.py  sample_pnts.npy -c 3  
-　　K-means.py sample_pnts.npy
+　　python K-means.py sample_pnts.npy -c 3  
+　　python K-means.py sample_pnts.npy
 
